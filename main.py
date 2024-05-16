@@ -4,7 +4,8 @@ import requests
 # Base URL of the OpenWeatherMap API
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 # API key for accessing the OpenWeatherMap API
-API_KEY = "00000000000000000000000" // enter your API KEY here
+# Enter your personal key here 
+API_KEY = "00000000000000000000000" 
 
 # Function to convert temperature from Kelvin to Celsius and Fahrenheit
 def kelvin_converter(kelvin):
